@@ -52,7 +52,7 @@ a:hover {
 .sidebar {
   display: flex;
   flex-direction: column;
-  justify-content:space-between;
+  justify-content:flex-start;
   align-items: center;
   height: 792px;
   background-color: #342E37;
@@ -60,6 +60,19 @@ a:hover {
 
 h3 {
   color: #FAFFFD;
+}
+
+.sidebar-image {
+  width: 200px;
+  border: solid white 1px;
+}
+
+button {
+  background-color: #008F95;
+  border: solid black 2px;
+  padding: 6px 14px;
+  border-radius: 8px;
+  margin: 6px;
 }
 
 /*adjust flex basis to adjust spacing and keep photoboxes to the right*/
